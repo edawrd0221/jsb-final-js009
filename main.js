@@ -123,7 +123,7 @@ var tower = {
 },
    
    fireRate :1,
-   readyToShootTimeTime: 1,
+   readyToShootTime: 1,
    damage:5
 }
 
