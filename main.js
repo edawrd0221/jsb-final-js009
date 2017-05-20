@@ -17,6 +17,9 @@ var isBuild = false;
 var FPS = 60;
 var clock =0
 var HP = 100;
+
+var score= 0;
+var Money=2555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555;
 ctx.fillStyle="white"
 ctx.font = "24px Arial"
 //設定敵人
@@ -155,6 +158,8 @@ function draw(){
    for(var i = 0; i<enemies.length;i++){
       
       if(enemies[i].hp<1){
+        score=score+1222222222222
+      Money=Money+1000
          enemies.splice(i,1);
       }
       else{
@@ -175,7 +180,8 @@ function draw(){
    }
    
    ctx.fillText("HP: "+HP,20,20)
-   
+   ctx.fillText("score: "+score,21,21)
+   ctx.fillText("Money: "+Money,22,22)
    clock = clock + 1;
    
 
