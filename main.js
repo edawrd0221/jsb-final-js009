@@ -140,6 +140,11 @@ $("#game-canvas").on("click",function(event){
         }
 })
 
+$("#game-canvas").on("mousemove",function(event){
+      cursor.x = event.offsetX
+      cursor.y = event.offsetY
+})
+
 function draw(){
    
    ctx.drawImage(bgImg,0,0);
