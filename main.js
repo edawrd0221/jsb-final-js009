@@ -180,7 +180,7 @@ function draw(){
    }
    
    ctx.fillText("HP: "+HP,20,20)
-   ctx.fillText("score: "+score,210,210)
+   ctx.fillText("score: "+score,60,60)
    ctx.fillText("Money: "+Money,40,40)
    clock = clock + 1;
    
