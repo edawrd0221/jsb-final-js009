@@ -19,7 +19,7 @@ var clock =0
 var HP = 100;
 
 var score= 0;
-var Money=2555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555;
+var Money=255555;
 ctx.fillStyle="white"
 ctx.font = "24px Arial"
 //設定敵人
@@ -180,8 +180,8 @@ function draw(){
    }
    
    ctx.fillText("HP: "+HP,20,20)
-   ctx.fillText("score: "+score,21,21)
-   ctx.fillText("Money: "+Money,22,22)
+   ctx.fillText("score: "+score,210,210)
+   ctx.fillText("Money: "+Money,40,40)
    clock = clock + 1;
    
 
